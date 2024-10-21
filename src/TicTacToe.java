@@ -123,6 +123,9 @@ public class TicTacToe {
         return isWinner(gameTable, 'x');
     }
 
+    private static boolean isComputerWin(char[][] gameTable) {
+        return isWinner(gameTable, '0');
+    }
 
 
 }
